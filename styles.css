@@ -45,6 +45,9 @@ header .social-container a i {
 main {
   scroll-behavior: smooth;
 }
+main .picture {
+  display: grid;
+}
 main .picture img {
   width: 100%;
 }
