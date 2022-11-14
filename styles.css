@@ -21,6 +21,7 @@ header h1 {
 }
 header img {
   margin: 20px;
+  width: 100px;
 }
 header .social-container {
   margin-right: 50px;
@@ -78,6 +79,14 @@ body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
 }
+@media screen and (max-width: 1024px) {
+  .hover-underline-animation::after {
+    transition: none;
+  }
+  .hover-underline-animation:hover::after {
+    transform: scaleX(0);
+  }
+}
 @media screen and (max-width: 560px) {
   header {
     flex-direction: row;
@@ -92,8 +101,8 @@ body::-webkit-scrollbar-thumb {
     margin-right: 30px;
   }
   header .social-container a {
-    font-size: 2rem;
-    margin: 13px;
+    font-size: 1rem;
+    margin: 10px;
   }
   header .social-container a i {
     font-size: 2rem;
