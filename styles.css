@@ -45,11 +45,11 @@ header .social-container a i {
 main {
   scroll-behavior: smooth;
 }
-main .picture {
-  display: grid;
-}
 main .picture img {
   width: 100%;
+}
+main .picture-2 {
+  display: grid;
 }
 .hover-underline-animation {
   display: inline-block;
