@@ -126,7 +126,7 @@ footer a h2 {
   width: 50%;
 }
 .about-us .text-container-us h1 {
-  padding: 50px;
+  font-size: 2rem;
 }
 .about-us .text-container-us div {
   text-align: center;
@@ -134,7 +134,7 @@ footer a h2 {
 .about-us .text-container-us div a {
   text-decoration: none;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 @media screen and (max-width: 1024px) {
   .hover-underline-animation::after {
@@ -152,7 +152,7 @@ footer a h2 {
     width: 100%;
   }
   .about-us .img-container-us img {
-    width: 100%;
+    width: 80%;
   }
   .about-us .text-container-us {
     width: 100%;
@@ -172,34 +172,21 @@ footer a h2 {
     font-size: 2rem;
   }
 }
-@media screen and (max-width: 768px) {
-  .about-us {
-    flex-direction: column;
-    padding: 20px;
-    margin: 10px;
-  }
+@media screen and (max-width: 700px) {
   .about-us .img-container-us {
     width: 100%;
   }
   .about-us .img-container-us img {
     width: 100%;
   }
-  .about-us .text-container-us {
-    width: 100%;
-  }
   .about-us .text-container-us h1 {
-    text-align: center;
-    padding: 0;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
   .about-us .text-container-us div {
     text-align: center;
   }
   .about-us .text-container-us div a {
-    margin: 10px;
-    text-decoration: none;
-    color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 560px) {
@@ -216,13 +203,13 @@ footer a h2 {
     margin-right: 30px;
   }
   header .social-container a {
-    font-size: 1rem;
-    margin: 10px;
+    font-size: 0.7rem;
+    margin: 5px;
   }
   header .social-container a i {
     font-size: 2rem;
   }
-  footer a {
-    font-size: 1rem;
+  footer a h2 {
+    font-size: 0.7rem;
   }
 }
