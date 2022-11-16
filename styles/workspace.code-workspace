@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../new-web-padu"
+		},
+		{
+			"path": "../../../Desktop/react-google-maps"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"compile-hero.disable-compile-files-on-did-save-code": true,
+		"liveServer.settings.multiRootWorkspaceName": "duo-biondi"
+	}
+}
